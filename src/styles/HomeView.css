@@ -1,0 +1,27 @@
+.hp-container {
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hp-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.hp-featured-section {
+  margin-top: 24px;
+}
+
+.hp-section-title {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.hp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}

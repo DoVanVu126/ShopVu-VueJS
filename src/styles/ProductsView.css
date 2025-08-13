@@ -1,0 +1,86 @@
+/* ProductsView.css */
+
+.pv-container {
+  padding: 20px;
+}
+
+.pv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.pv-add-product-btn {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pv-add-product-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.pv-products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pv-products-table th,
+.pv-products-table td {
+  border: 1px solid #e5e7eb;
+  padding: 8px;
+  vertical-align: middle;
+}
+
+.pv-thumb-cell {
+  width: 120px;
+  text-align: center;
+}
+
+.pv-thumb-cell img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.pv-desc {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pv-price {
+  color: #059669;
+  font-weight: 600;
+}
+
+.pv-quantity {
+  text-align: center;
+  width: 70px;
+}
+
+.pv-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.pv-actions button {
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background: white;
+  transition: background-color 0.2s ease;
+}
+
+.pv-actions button:hover {
+  background-color: #059669;
+  color: white;
+}

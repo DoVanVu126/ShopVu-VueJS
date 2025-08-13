@@ -1,0 +1,60 @@
+.co-container {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 0 12px;
+}
+
+.co-title {
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.co-empty {
+  text-align: center;
+  font-style: italic;
+  color: #6b7280;
+}
+
+.co-form-group {
+  margin-bottom: 16px;
+}
+
+.co-input,
+.co-textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.co-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.co-total {
+  margin: 16px 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+.co-btn-submit {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.co-btn-submit:hover {
+  background-color: #1d4ed8;
+}

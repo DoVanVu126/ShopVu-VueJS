@@ -1,0 +1,80 @@
+.pc-card {
+  border: 1px solid #e5e7eb;
+  padding: 12px;
+  border-radius: 8px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 335px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+}
+
+.pc-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+
+.pc-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pc-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+
+.pc-name {
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.pc-price {
+  color: #059669;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pc-quantity {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+  margin-top: auto;
+  /* đẩy phần này xuống cuối content */
+}
+
+.pc-add-btn {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+  /* cách nút với nội dung */
+  align-self: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.pc-add-btn:hover {
+  background-color: #1d4ed8;
+}

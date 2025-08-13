@@ -1,0 +1,115 @@
+/* ==== HEADER CHUNG ==== */
+.svh-header {
+  background: #0f172a;
+  color: #fff;
+  padding: 12px 0;
+}
+
+.svh-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.svh-left {
+  flex-shrink: 0;
+}
+
+.svh-center {
+  flex-shrink: 0;
+}
+
+.svh-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Đẩy sang phải */
+  gap: 16px;
+}
+
+.svh-logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.svh-center input {
+  width: 360px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.svh-cart-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ==== DROPDOWN QUẢN LÍ ==== */
+.svh-manage {
+  position: relative;
+  display: inline-block;
+}
+
+.svh-manage-btn {
+  background: #1e293b;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.svh-manage-btn:hover {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.svh-manage-list {
+  position: absolute;
+  top: 110%;
+  right: 0; /* Canh phải */
+  background: #1e293b;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 6px;
+  min-width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.svh-manage-list li {
+  padding: 8px 12px;
+}
+
+.svh-manage-list li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.svh-manage-list li:hover {
+  background: #2563eb;
+}
+
+.svh-manage-list li:hover a {
+  color: #fff;
+}
+
+/* ==== TÊN NGƯỜI DÙNG ==== */
+.svh-username {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ==== RESPONSIVE ==== */
+@media (max-width: 600px) {
+  .svh-center input {
+    width: 140px;
+  }
+}
